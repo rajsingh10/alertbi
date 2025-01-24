@@ -1,0 +1,1272 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 11:53:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.2.20                                |8.0.30
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.30 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+DOC ROOT____________: "D:/xampp/htdocs/alertbi"
+REQUEST URL_________: "http://localhost/alertbi"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://alertbi.fableadtechnolabs.com/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/xampp/htdocs/alertbi"
+URL_NEW_____________: "http://localhost/alertbi"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "D:/xampp/htdocs/alertbi/20250123_securityservices1_[HASH]_20250124114651_archive.zip"
+ARCHIVE SIZE________: 78.97MB
+CREATED_____________: 2025-01-24 11:46:51
+WP VERSION__________: 6.7.1
+DUP VERSION_________: 1.5.11.2
+LICENSE_____________: Free version
+DB VERSION__________: 8.0.37
+DB FILE SIZE________: 97.45MB
+DB TABLES___________: 22
+DB ROWS_____________: 7298
+URL HOME____________: https://alertbi.fableadtechnolabs.com
+URL CORE____________: https://alertbi.fableadtechnolabs.com
+URL CONTENT_________: https://alertbi.fableadtechnolabs.com/wp-content
+URL UPLOAD__________: https://alertbi.fableadtechnolabs.com/wp-content/uploads
+URL PLUGINS_________: https://alertbi.fableadtechnolabs.com/wp-content/plugins
+URL MU PLUGINS______: https://alertbi.fableadtechnolabs.com/wp-content/mu-plugins
+URL THEMES__________: https://alertbi.fableadtechnolabs.com/wp-content/themes
+PATH HOME___________: /home/dummyin2/alertbi.fableadtechnolabs.com
+PATH ABS____________: /home/dummyin2/alertbi.fableadtechnolabs.com
+PATH WPCONFIG_______: /home/dummyin2/alertbi.fableadtechnolabs.com
+PATH WPCONTENT______: /home/dummyin2/alertbi.fableadtechnolabs.com/wp-content
+PATH UPLOADS________: /home/dummyin2/alertbi.fableadtechnolabs.com/wp-content/uploads
+PATH PLUGINS________: /home/dummyin2/alertbi.fableadtechnolabs.com/wp-content/plugins
+PATH MUPLUGINS______: /home/dummyin2/alertbi.fableadtechnolabs.com/wp-content/mu-plugins
+PATH THEMES_________: /home/dummyin2/alertbi.fableadtechnolabs.com/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "alertbi.fableadtechnolabs.com/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:false]  Contact Form 7
+PLUGIN [SLUG:duplicate-page/duplicatepage.php                  ][ON:true ]  Duplicate Page
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:astra-sites/astra-sites.php                       ][ON:true ]  Starter Templates
+PLUGIN [SLUG:header-footer-elementor/header-footer-elementor.php][ON:true ]  Ultimate Addons for Elementor Lite
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+
+********************************************************************************
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   8.70725]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.96374]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+LOG-TIME[DELTA:   0.11143]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00095]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01743]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.08422]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00082]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00222]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00028]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00103]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00106]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.27380]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00751]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00198]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00105]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 11:53:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Security Services"
+HOME URL NEW________: "http://localhost/alertbi"
+SITE URL NEW________: "http://localhost/alertbi"
+CONTENT URL NEW_____: "http://localhost/alertbi/wp-content"
+UPLOAD URL NEW______: "http://localhost/alertbi/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/alertbi/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/alertbi/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/xampp/htdocs/alertbi"
+SITE PATH NEW_______: "D:/xampp/htdocs/alertbi"
+CONTENT PATH NEW____: "D:/xampp/htdocs/alertbi/wp-content"
+UPLOAD PATH NEW_____: "D:/xampp/htdocs/alertbi/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/xampp/htdocs/alertbi/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/xampp/htdocs/alertbi/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "D:/xampp/htdocs/alertbi/dup-installer"
+	FILE: "D:/xampp/htdocs/alertbi/20250123_securityservices1_[HASH]_20250124114651_installer-backup.php"
+	FILE: "D:/xampp/htdocs/alertbi/20250123_securityservices1_[HASH]_20250124114651_archive.zip"
+	FILE: "D:/xampp/htdocs/alertbi/installer (8).php"
+	FILE: "D:/xampp/htdocs/alertbi/dup-installer-bootlog__d789796-24114651.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20250123_securityservices1_[HASH]_20250124114651_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0265 sec. - Files processed: 2,478 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2478
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0146 sec. - Files processed: 2,765 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2765
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1176 sec. - Files processed: 2,879 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2879
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0297 sec. - Files processed: 3,116 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3116
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0851 sec. - Files processed: 3,276 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3276
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0270 sec. - Files processed: 3,666 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3666
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1055 sec. - Files processed: 3,921 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3921
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.4685 sec. - Files processed: 4,258 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4258
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2888 sec. - Files processed: 4,423 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4423
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0064 sec. - Files processed: 4,520 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4520
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.4493 sec. - Files processed: 4,648 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4648
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0738 sec. - Files processed: 4,840 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4840
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.0987 sec. - Files processed: 5,521 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5521
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5425 sec. - Files processed: 5,749 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5749
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2177 sec. - Files processed: 5,905 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5905
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5722 sec. - Files processed: 6,056 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6056
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0702 sec. - Files processed: 6,337 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6337
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1129 sec. - Files processed: 6,537 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6537
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0180 sec. - Files processed: 6,801 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6801
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.9685 sec. - Files processed: 7,068 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7068
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0074 sec. - Files processed: 7,283 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7283
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2384 sec. - Files processed: 7,443 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7443
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0719 sec. - Files processed: 7,711 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7711
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0202 sec. - Files processed: 7,798 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7798
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0579 sec. - Files processed: 8,051 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8051
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0568 sec. - Files processed: 8,204 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8204
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0263 sec. - Files processed: 8,656 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8656
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0512 sec. - Files processed: 8,869 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8869
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0595 sec. - Files processed: 9,144 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9144
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2289 sec. - Files processed: 9,497 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9497
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0154 sec. - Files processed: 9,820 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9820
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0287 sec. - Files processed: 10,150 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10150
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0421 sec. - Files processed: 10,473 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10473
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1780 sec. - Files processed: 10,924 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10924
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0293 sec. - Files processed: 11,203 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11203
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0308 sec. - Files processed: 11,380 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11380
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1322 sec. - Files processed: 11,582 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11582
+--------------------------------------
+PATHS MAPPING : "D:/xampp/htdocs/alertbi"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 12316
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 11:58:36 - RUNTIME: 287.4764 sec. - Files processed: 11,709 of 11,709
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp8l_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 11:58:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp8l_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp8l_actionscheduler_actions"____________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wp8l_actionscheduler_actions]
+TABLE "wp8l_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_actionscheduler_claims]
+TABLE "wp8l_actionscheduler_groups"_____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp8l_actionscheduler_groups]
+TABLE "wp8l_actionscheduler_logs"_______________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: wp8l_actionscheduler_logs]
+TABLE "wp8l_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_commentmeta]
+TABLE "wp8l_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp8l_comments]
+TABLE "wp8l_duplicator_packages"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp8l_duplicator_packages]
+TABLE "wp8l_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_e_events]
+TABLE "wp8l_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_links]
+TABLE "wp8l_options"____________________________________[ROWS:     289] [EXTRACT|REPLACE] [INST NAME: wp8l_options]
+TABLE "wp8l_postmeta"___________________________________[ROWS:    6417] [EXTRACT|REPLACE] [INST NAME: wp8l_postmeta]
+TABLE "wp8l_posts"______________________________________[ROWS:     949] [EXTRACT|REPLACE] [INST NAME: wp8l_posts]
+TABLE "wp8l_term_relationships"_________________________[ROWS:      22] [EXTRACT|REPLACE] [INST NAME: wp8l_term_relationships]
+TABLE "wp8l_term_taxonomy"______________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp8l_term_taxonomy]
+TABLE "wp8l_termmeta"___________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp8l_termmeta]
+TABLE "wp8l_terms"______________________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp8l_terms]
+TABLE "wp8l_usermeta"___________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wp8l_usermeta]
+TABLE "wp8l_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp8l_users]
+TABLE "wp8l_wpforms_logs"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_wpforms_logs]
+TABLE "wp8l_wpforms_payment_meta"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_wpforms_payment_meta]
+TABLE "wp8l_wpforms_payments"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp8l_wpforms_payments]
+TABLE "wp8l_wpforms_tasks_meta"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp8l_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.32 -- Build Server: 8.0.37
+FILE SIZE:	dup-database__[HASH].sql (84.74MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	288
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp8l_actionscheduler_actions"____________________[ROWS:    15]
+TABLE "wp8l_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "wp8l_actionscheduler_groups"_____________________[ROWS:     2]
+TABLE "wp8l_actionscheduler_logs"_______________________[ROWS:    33]
+TABLE "wp8l_commentmeta"________________________________[ROWS:     0]
+TABLE "wp8l_comments"___________________________________[ROWS:     1]
+TABLE "wp8l_duplicator_packages"________________________[ROWS:     2]
+TABLE "wp8l_e_events"___________________________________[ROWS:     0]
+TABLE "wp8l_links"______________________________________[ROWS:     0]
+TABLE "wp8l_options"____________________________________[ROWS:   289]
+TABLE "wp8l_postmeta"___________________________________[ROWS:  6417]
+TABLE "wp8l_posts"______________________________________[ROWS:   949]
+TABLE "wp8l_term_relationships"_________________________[ROWS:    22]
+TABLE "wp8l_term_taxonomy"______________________________[ROWS:     5]
+TABLE "wp8l_termmeta"___________________________________[ROWS:     4]
+TABLE "wp8l_terms"______________________________________[ROWS:     5]
+TABLE "wp8l_usermeta"___________________________________[ROWS:    30]
+TABLE "wp8l_users"______________________________________[ROWS:     1]
+TABLE "wp8l_wpforms_logs"_______________________________[ROWS:     0]
+TABLE "wp8l_wpforms_payment_meta"_______________________[ROWS:     0]
+TABLE "wp8l_wpforms_payments"___________________________[ROWS:     0]
+TABLE "wp8l_wpforms_tasks_meta"_________________________[ROWS:     5]
+
+INSERT DATA RUNTIME: 27.0878 sec.
+STEP-2 COMPLETE @ 11:59:05 - RUNTIME: 27.0881 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/dummyin2/alertbi.fableadtechnolabs.com REPLACE: D:/xampp/htdocs/alertbi [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://alertbi.fableadtechnolabs.com REPLACE: http://localhost/alertbi [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 11:59:05
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 512M], [inWpConfig = 1]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:D:\xampp\htdocs\alertbi\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp8l_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    45]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp8l_actionscheduler_actions"____________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp8l_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp8l_actionscheduler_logs"_______________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp8l_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_comments][0]
+
+EVALUATE TABLE: "wp8l_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_options"____________________________________[ROWS:   244][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_options][0]
+
+EVALUATE TABLE: "wp8l_postmeta"___________________________________[ROWS:  6417][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][1]
+	
+STEP-3 CHUNK STOP @ 11:59:10 - RUNTIME: 5.1466 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][2]
+CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][3]
+
+STEP-3 CHUNK STOP @ 11:59:18 - RUNTIME: 7.5745 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][4]
+CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][5]
+
+STEP-3 CHUNK STOP @ 11:59:28 - RUNTIME: 9.6293 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp8l_postmeta][6]
+
+EVALUATE TABLE: "wp8l_posts"______________________________________[ROWS:   949][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_posts][0]
+	
+STEP-3 CHUNK STOP @ 11:59:39 - RUNTIME: 11.2521 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp8l_term_relationships"_________________________[ROWS:    22][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_term_taxonomy"______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_term_taxonomy][0]
+
+EVALUATE TABLE: "wp8l_termmeta"___________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_termmeta][0]
+
+EVALUATE TABLE: "wp8l_terms"______________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_terms][0]
+
+EVALUATE TABLE: "wp8l_usermeta"___________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_usermeta][0]
+
+EVALUATE TABLE: "wp8l_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_users][0]
+
+EVALUATE TABLE: "wp8l_wpforms_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_wpforms_payment_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_wpforms_payments"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp8l_wpforms_tasks_meta"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dummyin2/alertbi.fableadtechnolabs.com" ====> "D:/xampp/htdocs/alertbi"
+	SEARCH[urlnd]  2:"https://alertbi.fableadtechnolabs.com" ===========> "http://localhost/alertbi"
+	CHUNK ACTION: CURRENT [search_replace][wp8l_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:22 	|	 Rows:7711 	|	 Cells:49081 
+UPDATED:	Tables:4 	|	 Rows:1664 	|	 Cells:2336 
+ERRORS:		0 
+RUNTIME:	34.764600 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/xampp/htdocs/alertbi/wp-config.php
+New htaccess file created:D:/xampp/htdocs/alertbi/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""alertbi1""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_MEMORY_LIMIT "512M"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:59:40 - RUNTIME: 0.9847 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[D:\xampp\htdocs\alertbi\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.18408]  MESSAGE:END RENDER PAGE
